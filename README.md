@@ -20,12 +20,24 @@ The Ames Iowa House Prices dataset [Link](https://www.kaggle.com/c/house-prices-
 - Target: SalePrice
 
 ## Solution Statement
-This problem can be solved using Logistic Regression, Decision tree, Random Forest, Gradient Bosst, XGBoost etc.
+
+Fit a regression model using default settings with each of the following kinds of models:
+
+   - ridge regression
+   - lasso regression
+   - knn
+   - decision tree
+   - support vector machines
+   
+Use a cross-validated grid search to refine three of the above models.
+Prepare a complexity curve for at least one attribute for each of the three models that you are tuning.
 
 ## Benchmark Model
+
 Regression model can have a naive benchmark model of mean value calculation
 
 ## Performance/Evaluation Metric
+
 The problem is solved as a Regression Model. Below are few Evaluation Metric/Models that can be used
 - Adjusted R Squared
 - MSE (mean square error)
